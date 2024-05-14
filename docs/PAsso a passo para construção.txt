@@ -6,9 +6,10 @@ Arnoldo (cara do porto digital)
 
 
 
-1. Introdução; Ambiente de desenvolvimento; Git, Angular CLI
 
-2. Módulos; Componentes e Templates; Input/Output Properties
+1. Introdução; Ambiente de desenvolvimento; Git, Angular CLI -- JORGE
+
+2. Módulos; Componentes e Templates; Input/Output Properties -- JORGE
 
 3. Data Binding; Diretivas
 Instrutores: Leonardo
