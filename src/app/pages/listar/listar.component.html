@@ -1,0 +1,12 @@
+
+<div style="display: flex">
+  <div class="card" style="width: 15rem; margin: 1rem" *ngFor="let contato of getContatos();">
+    <div class="card-body">
+      <h5 class="card-title">{{ contato.name }}</h5>
+      <p class="card-text">
+        {{ contato.telefone }}
+      </p>
+      <!-- <button type="button" class="btn btn-primary">Excluir</button> -->
+    </div>
+  </div>
+</div>

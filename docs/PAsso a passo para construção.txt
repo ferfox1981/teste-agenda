@@ -1,0 +1,82 @@
+
+18h as 20h
+Porto Digital - Antigo bandepe
+3o andar
+Arnoldo (cara do porto digital)
+
+
+
+1. Introdução; Ambiente de desenvolvimento; Git, Angular CLI
+
+2. Módulos; Componentes e Templates; Input/Output Properties
+
+3. Data Binding; Diretivas
+Instrutores: Leonardo
+
+4. Roteamento; Serviços
+Instrutores: Leonardo
+
+5. Formulários; Pipes
+Instrutores: Fernando
+
+
+Projeto - Agenda telefônica
+* Dados
+  - Nome
+  - Telefone
+  - Email
+
+** Passo a passo
+Aula 1 - Criação do projeto
+  - Apresentação do angular CLI
+
+Aula 2 - Criação do componente "Visualizar contato"
+  - Criação do projeto
+  - Versionamento inicial
+  - Definição da interface contato
+  - Criando um contato dentro do "Component" card
+  - Desenvolvimento do componente de visualizar/listar contato (componentes e templates; Input/Output Properties)
+  - Exibindo um contato (componentes e templates)
+
+Aula 3 - Criar o "Listar contatos"
+  - Criando um serviço de contatos (usando array) e removendo do "component"
+  - Exibindo dados mais elaborados (Data Binding)
+  - Exibindo uma lista de contatos (diretivas)
+
+Aula 4 - Definir rotas e criar o "Excluir contato"
+  - Criando rotas para listar e excluir
+  - Criar serviços de listar e excluir
+  - Implmenetar o excluir contato
+ 
+Aula 5 - Implementar "Incluir e Alterar Contatos"
+  - Criando rotas para incluir e alterar
+  - Usar formulários
+  - Adicionar pipes
+
+
+
+
+
+Criar github
+ - Criando chaves de acesso do git (https://docs.github.com/pt/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+   - ssh-keygen -t ed25519 -C "your_email@example.com"
+ - Configurando no github (https://docs.github.com/pt/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
+   - cat ~/.ssh/id_ed25519.pub
+   - Configurações > settings > Chaves SSH e GPG > new SSH key
+ - Criar repositório no github
+	- repositories > new
+	- Copiar link
+   
+Criar projeto
+ - ng new curso --no-standalone --routing --ssr=false
+ - ng g c pages/home --skip-tests
+ - ng g c components/exemploComponente --skip-tests 
+
+ - Commit inicial (https://medium.com/razroo/how-to-create-an-angular-repository-a-step-by-step-guide-cbf6f4dd3228)
+   - git add .
+   - git commit -m “Initial commit”
+   - git remote add origin <remote_repository_url>
+   - git push -u origin master
+
+ - npm install bootstrap
+ - Adicionar bootstrap no css
